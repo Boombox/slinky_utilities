@@ -1,0 +1,80 @@
+
+.is-full-width,
+%is-full-width {
+  @include is-full-width;
+}
+
+// Reading text
+.short-reading-text,
+%short-reading-text {
+  @include short-reading-text;
+}
+
+.reading-text,
+%reading-text {
+  @include reading-text;
+}
+
+.long-reading-text,
+%long-reading-text {
+  @include long-reading-text;
+}
+
+.centered-text,
+%centered-text {
+  text-align: center;
+}
+
+// Images.
+img.is-responsive,
+.is-responsive img {
+  height: auto;
+  width: 100%;
+  max-width: 100%;
+}
+
+.is-cover {
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+// Aspect ratio.
+.aspect--is-square,
+.aspect--is-1to1 {
+  width: 100%;
+  height: 0;
+  padding-bottom: 100%;
+  overflow: hidden;
+}
+
+.aspect--is-2to1 {
+  width: 100%;
+  height: 0;
+  padding-bottom: 50%;
+  overflow: hidden;
+}
+
+.aspect--is-4to3 {
+  width: 100%;
+  height: 0;
+  padding-bottom: 75%;
+  overflow: hidden;
+}
+
+.aspect--is-6to5 {
+  width: 100%;
+  height: 0;
+  padding-bottom: percentage(5/6);
+  overflow: hidden;
+}
+
+//.is-window-aspect {
+//  overflow: hidden;
+//  //width: 21vw;
+//  //height: 21vh;
+//  //max-width: 100%;
+//  width: 100%;
+//  height: 0;
+//  overflow: hidden;
+//}
+

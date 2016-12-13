@@ -1,0 +1,76 @@
+
+@mixin is-full-width {
+  width: 100%;
+}
+
+// Reading text
+@mixin short-reading-text {
+  max-width: 22em; // max around 50 characters per line
+}
+
+@mixin reading-text {
+  max-width: 33em; // max around 75 characters per line
+}
+
+@mixin long-reading-text {
+  max-width: 44em; // max around 95 characters per line
+}
+
+// Images.
+//img.is-responsive,
+//.is-responsive img {
+//  height: auto;
+//  width: 100%;
+//  max-width: 100%;
+//}
+//
+//.is-cover {
+//  object-fit: cover;
+//  object-position: 50% 50%;
+//}
+
+
+//.aspect-is-3to4 {
+//  width: 100%;
+//  height: 0;
+//  padding-bottom: percentage(3/4);
+//}
+
+//.aspect--is-square,
+//.aspect--is-1to1 {
+//  width: 100%;
+//  height: 0;
+//  padding-bottom: 100%;
+//  overflow: hidden;
+//}
+//
+//.aspect--is-2to1 {
+//  width: 100%;
+//  height: 0;
+//  padding-bottom: 50%;
+//  overflow: hidden;
+//}
+//
+//.aspect--is-4to3 {
+//  width: 100%;
+//  height: 0;
+//  padding-bottom: 75%;
+//  overflow: hidden;
+//}
+//
+//.aspect--is-6to5 {
+//  width: 100%;
+//  height: 0;
+//  padding-bottom: percentage(5/6);
+//  overflow: hidden;
+//}
+
+//.is-window-aspect {
+//  overflow: hidden;
+//  //width: 21vw;
+//  //height: 21vh;
+//  //max-width: 100%;
+//  width: 100%;
+//  height: 0;
+//  overflow: hidden;
+//}

@@ -1,0 +1,95 @@
+/**
+ * Slinky utilities
+ */
+
+@import "variables";
+@import "mixins";
+@import "classes";
+
+
+/*
+
+
+// Show / Hide
+.show-on-desktop {
+  display: none;
+  @media screen and (min-width: 1025px) {
+    display: block;
+  }
+}
+
+.hide-on-desktop {
+  display: block;
+  @media screen and (min-width: 1025px) {
+    display: none;
+  }
+}
+
+.is-hidden {
+  display: none;
+}
+
+
+// Backgrounds.
+.has-lightest-grey-background,
+%has-lightest-grey-background {
+  background: color(lightest-grey);
+}
+
+.has-lighter-grey-background,
+%has-lighter-grey-background {
+  background: color(lighter-grey);
+}
+
+.has-light-grey-background,
+%has-light-grey-background {
+  background: color(light-grey);
+}
+
+.has-grey-background,
+%has-grey-background {
+  background: color('grey');
+}
+
+.has-dark-grey-background,
+%has-dark-grey-background {
+  background: color('dark-grey');
+}
+
+
+
+
+//
+//.is-half .is-window-aspect {
+//  padding-bottom: (100-4) * 1vh;
+//}
+//
+//.is-half .grid .is-window-aspect {
+//  padding-bottom: (50-4) * 1vh;
+//}
+//
+//@media all and (min-width: 48em) {
+//  .is-half .is-window-aspect {
+//    padding-bottom: (50-4) * 1vh;
+//  }
+//
+//  .is-half .grid .is-window-aspect {
+//    padding-bottom: (25-4) * 1vh;
+//  }
+//}
+
+
+.has-lightest-grey-background .link-block {
+  @extend %has-lightest-grey-background;
+}
+
+[data-href] {
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+
+
+
+ */
