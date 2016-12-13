@@ -1,0 +1,26 @@
+{
+  "name": "slinky_utilities",
+  "version": "0.0.1",
+  "description": "Slinky Responsive CSS Framework: Utilities Library, miscellaneous helpers which aren't yet big enough for a dedicated library.",
+  "main": "slinky_utilities.scss",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sphism/slinky_utilities.git"
+  },
+  "author": "Matt Terry",
+  "license": "MIT",
+  "keywords": [
+    "css",
+    "scss",
+    "aspect ratio",
+    "responsive",
+    "framework"
+  ],
+  "bugs": {
+    "url": "https://github.com/sphism/slinky_utilities/issues"
+  },
+  "homepage": "https://github.com/sphism/slinky_utilities#readme"
+}
