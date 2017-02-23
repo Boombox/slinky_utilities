@@ -1,6 +1,6 @@
 {
   "name": "slinky_utilities",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Slinky Responsive CSS Framework: Utilities Library, miscellaneous helpers which aren't yet big enough for a dedicated library.",
   "main": "slinky_utilities.scss",
   "scripts": {
